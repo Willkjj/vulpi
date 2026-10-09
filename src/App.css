@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #592E83;
+    --secondary-color: #1e0e2e;
+    --primary-font: #da91ff;
+    --border: #442663;
+    --darkness: #180723;
+}
+
+* {
+  background-color: var(--darkness);
+  margin: 0;
+  padding: 0;
+}
+
