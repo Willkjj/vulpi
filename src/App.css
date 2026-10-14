@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
 :root {
     --primary-color: #592E83;
     --secondary-color: #1e0e2e;
@@ -10,5 +12,6 @@
   background-color: var(--darkness);
   margin: 0;
   padding: 0;
+  font-family: "Space Grotesk";
 }
 

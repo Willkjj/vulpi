@@ -1,0 +1,11 @@
+the main thing is with the button, it should have cursor:pointer, and probably a color change when hovered. i can send you a site i found about all the states a button needs, its a lot lol. 
+
+there is also onMouseDown as an event for the button, the way the border works right now makes it seem laggy, if you just have onMouseDown change the clicked state instead, without the lagging border, just a border when its clicked. 
+
+also, just a little code thing, but i would do the { children } thing instead of using text, unless you would have a reason to use children elsewhere.
+besides that, good base I like the top search bar, although i might remove the border from the top of it
+
+make side bar slide off screen,
+add tags directly underneath
+
+https://www.uxpin.com/studio/blog/button-states/
