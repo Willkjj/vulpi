@@ -3,16 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "node --watch server.js",
+    "client": "vite",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
+    "express": "^5.3.0",
+    "node": "^26.11.1",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "socket.io": "^4.8.4"
   },
   "devDependencies": {
     "@types/react": "^19.2.18",
