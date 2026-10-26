@@ -1,13 +1,12 @@
 /** @jsxImportSource @emotion/react */
-export default function SearchBar( {text, setText}){
-
-
+export default function SearchBar( {text, setText, screen, workspace}){
     return(
         <div id="searchBarContainer"
         css={{
             width: "100%",
             display: "flex",
             justifyContent: "center",
+            backgroundColor: "transparent",
             position: "fixed",
             top: "-0px",
             
@@ -29,6 +28,7 @@ export default function SearchBar( {text, setText}){
             onChange={(e) => {
                 setText(e.target.value)
             }}
+            placeholder={screen == "HOME" ? "Search all notes" : `Search notes in ${workspace["name"]}`}
             >
 
             </input>

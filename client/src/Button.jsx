@@ -27,6 +27,7 @@ export default function Button({ children, whenClicked }) {
             borderRadius: ".5em",
             margin: ".5em .25em",
             height: "45px",
+            transition: ".1s",
 
             "&:hover":{
                 border: "solid 2px var(--primary-font)",
